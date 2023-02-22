@@ -1,13 +1,17 @@
 
 h1 {
+    font-family: monospace;
     display: flex;
-    margin: 0;
+    margin: 0.5vh;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 200%;
     font-weight: bold;
     padding-right: 20px;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 h2{
+    font-family: monospace;
     color: white;
     margin: 0%;
     display: flex;
@@ -18,11 +22,13 @@ h2{
 }
 .name{
     margin-right: auto;
+    text-align: center;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: monospace;
     margin: 0;
-    background-color: rgb(40, 43, 54);
+    background-color: whitesmoke;
+    z-index: 2;
 }
 nav {
     display: flex;
@@ -51,6 +57,7 @@ a {
     text-align: center;
     padding: 100px 20px;
     text-decoration: none;
+    font-size: large;
 }
 a:hover{
     text-decoration: underline;
@@ -61,11 +68,64 @@ a:hover{
 }
 
 .content{
-    background-color: rgb(40, 43, 54);
+    background-color: whitesmoke;
     display: flex;
-
+    flex-direction: column;
+    justify-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
     height: 100vh;
 }
 .navinner{
     background-color: rgb(28, 29, 32);
+
+}
+.post {
+    padding-left: 5vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 5%;
+    text-align: left;
+    color: black;
+}
+.posthead{
+    padding-left: 5vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 5%;
+    text-align: left;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+}
+hr{
+    background-color: rgb(192, 192, 192);
+}
+.nameintro{
+    font-family: monospace;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 1%;
+    text-align: left;
+    font-size: 500%;
+    color: rgb(0, 0, 0);
+}
+.nameintro2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0.7%;
+}
+.subcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(130, 231, 135);
+    height: 75vh;
+    padding-left: auto;
+    padding-right: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
