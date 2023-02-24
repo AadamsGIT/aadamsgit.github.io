@@ -147,11 +147,23 @@ hr{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(130, 231, 135);
     height: 75vh;
     padding-left: auto;
     padding-right: auto;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+#myCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
