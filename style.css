@@ -77,6 +77,17 @@ a:hover{
     max-width: 900px;
     height: 100vh;
 }
+.contentp{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    max-width: 900px;
+    height: 100vh;
+}
 .navinner{
     background-color: rgb(28, 29, 32);
 
@@ -88,6 +99,7 @@ a:hover{
     margin-bottom: 5%;
     text-align: left;
     color: black;
+    font-size: 20px;
 }
 .posthead{
     padding-left: 5vh;
@@ -97,6 +109,20 @@ a:hover{
     text-align: left;
     font-size: 200%;
     color: rgb(0, 0, 0);
+}
+.txt{
+    font-size: 20px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 1.75;
+}
+.title{
+    font-size: 25px;
+    margin-left:5%;
+    margin-right:5%;
+
 }
 hr{
     background-color: rgb(192, 192, 192);
